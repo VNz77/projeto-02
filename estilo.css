@@ -1,0 +1,36 @@
+/* Configuração geral para centralizar o conteúdo na tela */
+body {
+    background-color: #121214;
+    color: #e1e1e6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estilo do título principal */
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #00adb5;
+}
+
+/* Estilo do link transformado em botão */
+a {
+    color: #121214;
+    background-color: #00adb5;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+/* Efeito ao passar o mouse no botão */
+a:hover {
+    background-color: #00fff5;
+    transform: translateY(-2px);
+}
